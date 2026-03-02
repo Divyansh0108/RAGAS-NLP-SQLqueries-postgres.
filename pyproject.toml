@@ -1,0 +1,20 @@
+[project]
+name = "text-to-sql-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chainlit>=2.9.6",
+    "chromadb>=1.5.1",
+    "fastapi>=0.133.0",
+    "langchain>=1.2.10",
+    "langchain-ollama>=1.0.1",
+    "psycopg2-binary>=2.9.9",
+    "sentence-transformers>=5.2.3",
+    "python-dotenv>=1.0.0",
+    "sqlalchemy>=2.0.47",
+    "sqlparse>=0.5.5",
+    "streamlit>=1.54.0",
+    "uvicorn>=0.41.0",
+]

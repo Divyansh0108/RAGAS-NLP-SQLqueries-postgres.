@@ -1,0 +1,33 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.python-version
+
+# Workspace/IDE
+.vscode/
+.DS_Store
+
+# Environment variables
+.env
+
+# Data and Artifacts (optional, but keep dvdrental data out of git usually)
+dvdrental/*.dat
+dvdrental/toc.dat
+data/schema_docs/*.json
+
+# Scratch files
+sam.txt
+Response.txt
+transfer_ownership.sql
+
+# Plan and documentation
+Plan/
+chatbot_project_journey.txt
+
