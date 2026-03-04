@@ -17,10 +17,19 @@ wheels/
 # Environment variables
 .env
 
-# Data and Artifacts (optional, but keep dvdrental data out of git usually)
+# Data and Artifacts
 dvdrental/*.dat
 dvdrental/toc.dat
 data/schema_docs/*.json
+
+# ChromaDB vector store — regenerate with: uv run python scripts/embed_schema_and_examples.py
+data/chroma_db/
+
+# Timestamped evaluation run outputs
+data/evaluation/eval_*.json
+
+# Chainlit auto-generated translations
+.chainlit/translations/
 
 # Scratch files
 sam.txt
