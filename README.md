@@ -757,42 +757,6 @@ Inspired by the need for secure, privacy-preserving enterprise data access. Than
 **Made with ❤️ using local AI • No API keys required • Privacy-first**
 
 </div>
-
----
-
-## 🗺️ Project Roadmap
-
-### ✅ Phase 1: Core Functionality (Completed)
-- [x] RAG pipeline (retrieval + generation)
-- [x] PostgreSQL integration
-- [x] Chainlit UI with chat interface
-- [x] Basic error handling
-- [x] SQL validation and security
-
-### ✅ Phase 2: Production Hardening (Completed)
-- [x] Comprehensive testing (64 unit tests)
-- [x] Rate limiting and query complexity checks
-- [x] Structured logging and monitoring
-- [x] Configuration management (Pydantic)
-- [x] RAGAS evaluation framework
-
-### 🚧 Phase 3: Enhanced Intelligence (In Progress)
-- [ ] Query result summarization
-- [ ] Multi-turn conversations
-- [ ] Query explanation mode
-
-### 📋 Phase 4: Visualization & UX (Planned)
-- [ ] Auto-generate charts from results
-- [ ] Export to CSV/Excel
-- [ ] Query history with search
-- [ ] Saved queries/favorites
-
-### 📋 Phase 5: Enterprise Features (Planned)
-- [ ] User authentication (OAuth2)
-- [ ] Query audit logs
-- [ ] Multiple database support
-- [ ] REST API endpoint
-
 ---
 
 ## 📈 Project Stats
